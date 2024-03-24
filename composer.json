@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Root\\Html\\": "src/"
+            "Blog\\": "src/"
         }
     },
     "authors": [
@@ -16,6 +16,7 @@
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
-        "twig/twig": "^3.8"
+        "twig/twig": "^3.8",
+        "ext-pdo": "*"
     }
 }
